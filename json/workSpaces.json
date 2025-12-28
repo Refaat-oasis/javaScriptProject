@@ -1,0 +1,259 @@
+[
+    {
+        "id": 1,
+        "name": "Skyview Workspace",
+        "location": "New York",
+        "features": [
+            "WiFi",
+            "Projector",
+            "Coffee"
+        ],
+        "hours_price": 25,
+        "number_of_rooms": 3,
+        "rate": 4.5
+    },
+    {
+        "id": 2,
+        "name": "Downtown Hub",
+        "location": "Los Angeles",
+        "features": [
+            "WiFi",
+            "Whiteboard"
+        ],
+        "hours_price": 20,
+        "number_of_rooms": 2,
+        "rate": 4.2
+    },
+    {
+        "id": 3,
+        "name": "Tech Loft",
+        "location": "San Francisco",
+        "features": [
+            "WiFi",
+            "Printer",
+            "Snacks"
+        ],
+        "hours_price": 30,
+        "number_of_rooms": 4,
+        "rate": 4.7
+    },
+    {
+        "id": 4,
+        "name": "Creative Corner",
+        "location": "Chicago",
+        "features": [
+            "WiFi",
+            "Whiteboard",
+            "Coffee"
+        ],
+        "hours_price": 18,
+        "number_of_rooms": 2,
+        "rate": 4.3
+    },
+    {
+        "id": 5,
+        "name": "Urban Space",
+        "location": "Boston",
+        "features": [
+            "WiFi",
+            "Projector",
+            "Lounge"
+        ],
+        "hours_price": 22,
+        "number_of_rooms": 3,
+        "rate": 4.4
+    },
+    {
+        "id": 6,
+        "name": "Innovation Hub",
+        "location": "Seattle",
+        "features": [
+            "WiFi",
+            "Printer",
+            "Coffee"
+        ],
+        "hours_price": 28,
+        "number_of_rooms": 4,
+        "rate": 4.6
+    },
+    {
+        "id": 7,
+        "name": "WorkNest",
+        "location": "Austin",
+        "features": [
+            "WiFi",
+            "Whiteboard",
+            "Snacks"
+        ],
+        "hours_price": 19,
+        "number_of_rooms": 2,
+        "rate": 4.1
+    },
+    {
+        "id": 8,
+        "name": "Focus Studio",
+        "location": "Denver",
+        "features": [
+            "WiFi",
+            "Projector"
+        ],
+        "hours_price": 21,
+        "number_of_rooms": 3,
+        "rate": 4.3
+    },
+    {
+        "id": 9,
+        "name": "Collab Space",
+        "location": "Miami",
+        "features": [
+            "WiFi",
+            "Lounge",
+            "Coffee"
+        ],
+        "hours_price": 24,
+        "number_of_rooms": 3,
+        "rate": 4.5
+    },
+    {
+        "id": 10,
+        "name": "The Hive",
+        "location": "San Diego",
+        "features": [
+            "WiFi",
+            "Whiteboard",
+            "Snacks"
+        ],
+        "hours_price": 20,
+        "number_of_rooms": 2,
+        "rate": 4.2
+    },
+    {
+        "id": 11,
+        "name": "NextGen Workspace",
+        "location": "Portland",
+        "features": [
+            "WiFi",
+            "Printer",
+            "Coffee"
+        ],
+        "hours_price": 26,
+        "number_of_rooms": 4,
+        "rate": 4.6
+    },
+    {
+        "id": 12,
+        "name": "Smart Work Hub",
+        "location": "Dallas",
+        "features": [
+            "WiFi",
+            "Whiteboard",
+            "Projector"
+        ],
+        "hours_price": 23,
+        "number_of_rooms": 3,
+        "rate": 4.4
+    },
+    {
+        "id": 13,
+        "name": "City Desk",
+        "location": "Philadelphia",
+        "features": [
+            "WiFi",
+            "Coffee",
+            "Lounge"
+        ],
+        "hours_price": 19,
+        "number_of_rooms": 2,
+        "rate": 4.2
+    },
+    {
+        "id": 14,
+        "name": "Alpha Workspace",
+        "location": "Atlanta",
+        "features": [
+            "WiFi",
+            "Projector",
+            "Snacks"
+        ],
+        "hours_price": 25,
+        "number_of_rooms": 3,
+        "rate": 4.5
+    },
+    {
+        "id": 15,
+        "name": "Bright Hub",
+        "location": "Houston",
+        "features": [
+            "WiFi",
+            "Whiteboard"
+        ],
+        "hours_price": 18,
+        "number_of_rooms": 2,
+        "rate": 4.1
+    },
+    {
+        "id": 16,
+        "name": "Peak Office",
+        "location": "Phoenix",
+        "features": [
+            "WiFi",
+            "Printer",
+            "Coffee"
+        ],
+        "hours_price": 27,
+        "number_of_rooms": 4,
+        "rate": 4.6
+    },
+    {
+        "id": 17,
+        "name": "Zen Workspace",
+        "location": "Las Vegas",
+        "features": [
+            "WiFi",
+            "Lounge",
+            "Snacks"
+        ],
+        "hours_price": 22,
+        "number_of_rooms": 3,
+        "rate": 4.3
+    },
+    {
+        "id": 18,
+        "name": "Momentum Hub",
+        "location": "Orlando",
+        "features": [
+            "WiFi",
+            "Projector",
+            "Coffee"
+        ],
+        "hours_price": 24,
+        "number_of_rooms": 3,
+        "rate": 4.4
+    },
+    {
+        "id": 19,
+        "name": "WorkLab",
+        "location": "Detroit",
+        "features": [
+            "WiFi",
+            "Whiteboard",
+            "Snacks"
+        ],
+        "hours_price": 21,
+        "number_of_rooms": 2,
+        "rate": 4.3
+    },
+    {
+        "id": 20,
+        "name": "Elevate Space",
+        "location": "Minneapolis",
+        "features": [
+            "WiFi",
+            "Printer",
+            "Lounge"
+        ],
+        "hours_price": 26,
+        "number_of_rooms": 4,
+        "rate": 4.6
+    }
+]
