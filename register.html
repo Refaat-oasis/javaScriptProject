@@ -1,0 +1,193 @@
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            background-color: #E3E3E3;
+        }
+
+    
+        .left {
+            width: 55%;
+            background: 
+                linear-gradient(rgba(27,60,83,0.7), rgba(27,60,83,0.7)),
+                url("https://images.unsplash.com/photo-1626187777040-ffb7cb2c5450?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjb3dvcmtpbmclMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzY2OTQ2MzMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 60px;
+            display: flex;
+            align-items: center;
+        }
+
+        .left-content h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .left-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #E3E3E3;
+        }
+
+        .right {
+            width: 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f9f9f9;
+        }
+
+        .card {
+            background: #fff;
+            width: 100%;
+            max-width: 420px;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(27, 60, 83, 0.2);
+        }
+
+        .card h2 {
+            color: #1B3C53;
+            margin-bottom: 5px;
+        }
+
+        .card p {
+            color: #456882;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 6px;
+            color: #234C6A;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #456882;
+            font-size: 14px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #1B3C53;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #1B3C53;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #234C6A;
+        }
+
+        .footer-text {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #456882;
+        }
+
+        .footer-text a {
+            color: #1B3C53;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .footer-text a:hover {
+            text-decoration: underline;
+        }
+
+   
+        @media (max-width: 900px) {
+            body {
+                flex-direction: column;
+            }
+
+            .left {
+                width: 100%;
+                min-height: 300px;
+            }
+
+            .right {
+                width: 100%;
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+   
+    <div class="left">
+        <div class="left-content">
+            <h1>Find your perfect workspace</h1>
+            <p>
+                Discover flexible workspaces designed for productivity
+                and collaboration.
+            </p>
+        </div>
+    </div>
+
+   
+    <div class="right">
+        <div class="card">
+            <h2>Create Account</h2>
+            <p>Register to access your workspace</p>
+
+            <form id="registerForm" novalidate>
+                <label>Username</label>
+                <input type="text" id="username">
+
+                <label>Email</label>
+                <input type="email" id="email">
+
+                <label>Password</label>
+                <input type="password" id="pass">
+
+                <label>Confirm Password</label>
+                <input type="password" id="repass">
+
+                <button type="submit">Register</button>
+            </form>
+
+            <div class="footer-text">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+    </div>
+<script src="registervalidation.js"></script>
+</body>
+</html>
