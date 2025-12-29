@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Ahmed Hassan",
+        "username": "ahmed.hassan",
+        "password": "Pass@123"
+    },
+    {
+        "id": 2,
+        "name": "Mohamed Ali",
+        "username": "mohamed.ali",
+        "password": "Ali#456"
+    },
+    {
+        "id": 3,
+        "name": "Sara Ibrahim",
+        "username": "sara.ibrahim",
+        "password": "Sara789!"
+    },
+    {
+        "id": 4,
+        "name": "Omar Khaled",
+        "username": "omar.khaled",
+        "password": "Omar@2024"
+    },
+    {
+        "id": 5,
+        "name": "Nour Adel",
+        "username": "nour.adel",
+        "password": "Nour#321"
+    },
+    {
+        "id": 6,
+        "name": "Youssef Mahmoud",
+        "username": "youssef.mahmoud",
+        "password": "Yousef!88"
+    },
+    {
+        "id": 7,
+        "name": "Mona Fathy",
+        "username": "mona.fathy",
+        "password": "Mona@555"
+    },
+    {
+        "id": 8,
+        "name": "Khaled Samir",
+        "username": "khaled.samir",
+        "password": "KS@9000"
+    },
+    {
+        "id": 9,
+        "name": "Huda Tarek",
+        "username": "huda.tarek",
+        "password": "Huda#777"
+    },
+    {
+        "id": 10,
+        "name": "Mahmoud Nabil",
+        "username": "mahmoud.nabil",
+        "password": "MN!1234"
+    }
+]
