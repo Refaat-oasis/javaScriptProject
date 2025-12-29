@@ -3,25 +3,55 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
     background-color: #e3e3e3;
+    flex: 1;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
+    height: 70px;
     width: 100%;
-    background-color: #234c6a;
+    background-color: #F4F5F6;
     padding: 0 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-logo {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.15);
 }
 
 #brandname {
-    color: white;
+    color: #234c6a;
     font-size: 1.3rem;
     font-weight: bold;
 }
@@ -34,28 +64,178 @@ nav {
 
 #links ul li a {
     text-decoration: none;
-    color: white;
+    color: #234c6a;
     font-size: 1rem;
-    padding: 0.4rem 0.8rem;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    border: 2px solid transparent;
+}
+
+#links ul li a:hover {
+    color: #1B3C53;
+}
+
+#links ul li:first-child a {
+    border: 2px solid #234c6a;
+}
+
+#links ul li:first-child a:hover {
+    background-color: #e8eaed;
+    border-color: #1B3C53;
+}
+
+#links ul li:last-child a {
+    background-color: #1B3C53;
+    color: white;
+    border: 2px solid #1B3C53;
+}
+
+#links ul li:last-child a:hover {
+    color: white;
+    background-color: #234c6a;
+    border-color: #234c6a;
 }
 
 
 #links ul li a.active {
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: #234c6a;
+    color: white;
 }
 
 
 
 footer {
-
-    color: #e3e3e3;
-    text-align: center;
-    border-radius: 1vh 1vh 0 0;
-
-    height: 12vh;
-    width: 100%;
     background-color: #234c6a;
-    padding: 0 2rem;
+    color: #e3e3e3;
+    padding: 3rem 2rem 1rem;
+    width: 100%;
+    margin-top: auto;
+    border-top: 3px solid #1a365d;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+}
+
+.footer-section h3 {
+    color: #f4f5f6;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.6rem;
+}
+
+.footer-section ul li a {
+    color: #b0c4de;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #f4f5f6;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(244, 245, 246, 0.1);
+    color: #b0c4de;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    background-color: #f4f5f6;
+    color: #234c6a;
+    transform: translateY(-3px);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(244, 245, 246, 0.1);
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.footer-bottom p {
+    margin: 0.5rem 0;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    footer {
+        padding: 2rem 1rem 1rem;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .footer-section h3 {
+        font-size: 1rem;
+    }
+
+    .footer-section p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 1.5rem 1rem 1rem;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .footer-section h3 {
+        font-size: 0.95rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .footer-section p {
+        font-size: 0.8rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .social-links a {
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+
+    .footer-bottom p {
+        font-size: 0.75rem;
+    }
 }
