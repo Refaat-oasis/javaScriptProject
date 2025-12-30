@@ -11,8 +11,8 @@ function setLocalStorage() {
     console.log(localStorage.user)
 }
 form.onsubmit = async (e) => {
-email.classList.remove("error");
-password.classList.remove("error");
+    email.classList.remove("error");
+    password.classList.remove("error");
 
 
     e.preventDefault();
@@ -21,10 +21,10 @@ password.classList.remove("error");
     message.textContent = "";
     if (!email.value || !password.value) {
         message.textContent = "Please fill in all inputs";
-       
+
         message.style.color = "red";
-         if (!email.value) email.classList.add("error");
-    if (!password.value) password.classList.add("error");
+        if (!email.value) email.classList.add("error");
+        if (!password.value) password.classList.add("error");
         return;
 
     }
@@ -46,13 +46,13 @@ password.classList.remove("error");
             }
             window.location.href = 'register.html';
         } else {
-        password.classList.add("error")
+            password.classList.add("error")
             passwordError.textContent = "invalid password"
             passwordError.style.color = "red"
             return
         }
     } else {
-                     email.classList.add("error")
+        email.classList.add("error")
 
         emailError.textContent = "Invalid email";
         emailError.style.color = "red"

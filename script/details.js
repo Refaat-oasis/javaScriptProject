@@ -41,10 +41,10 @@ fetch("./../json/workSpaces.json")
             li.textContent = feature;
             featuresEl.appendChild(li);
         });
-    
-    
-    
-     const roomsContainer = document.getElementById("workspaceRoomsContainer");
+
+
+
+        const roomsContainer = document.getElementById("workspaceRoomsContainer");
         roomsContainer.innerHTML = "";
 
         if (!workspace.rooms || workspace.rooms.length === 0) {
@@ -64,7 +64,7 @@ fetch("./../json/workSpaces.json")
             roomsContainer.appendChild(roomDiv);
         });
     })
-   .catch(err => {
+    .catch(err => {
         console.error(err);
         alert("Failed to load data");
     });

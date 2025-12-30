@@ -4,14 +4,27 @@
         "name": "Skyview Workspace",
         "location": "New York",
         "image": "md (1).jpg",
-        "features": ["WiFi", "Projector", "Coffee"],
+        "features": [
+            "WiFi",
+            "Projector",
+            "Coffee"
+        ],
         "hours_price": 25,
         "number_of_rooms": 3,
         "rate": 4.5,
         "rooms": [
-            { "name": "Meeting Room", "image": "room1.webp" },
-            { "name": "Private Office", "image": "room2.webp" },
-            { "name": "Conference Room", "image": "room3.webp" }
+            {
+                "name": "Meeting Room",
+                "image": "room1.webp"
+            },
+            {
+                "name": "Private Office",
+                "image": "room2.webp"
+            },
+            {
+                "name": "Conference Room",
+                "image": "room3.webp"
+            }
         ]
     },
     {
@@ -19,13 +32,22 @@
         "name": "Downtown Hub",
         "location": "Los Angeles",
         "image": "md (2).jpg",
-        "features": ["WiFi", "Whiteboard"],
+        "features": [
+            "WiFi",
+            "Whiteboard"
+        ],
         "hours_price": 20,
         "number_of_rooms": 2,
         "rate": 4.2,
         "rooms": [
-            { "name": "Main Workspace", "image": "room4.webp" },
-            { "name": "Meeting Room", "image": "room5.jpg" }
+            {
+                "name": "Main Workspace",
+                "image": "room4.webp"
+            },
+            {
+                "name": "Meeting Room",
+                "image": "room5.jpg"
+            }
         ]
     },
     {
@@ -33,15 +55,31 @@
         "name": "Tech Loft",
         "location": "San Francisco",
         "image": "md (3).jpg",
-        "features": ["WiFi", "Printer", "Snacks"],
+        "features": [
+            "WiFi",
+            "Printer",
+            "Snacks"
+        ],
         "hours_price": 30,
         "number_of_rooms": 4,
         "rate": 4.7,
         "rooms": [
-            { "name": "Conference Room", "image": "room6.jpg" },
-            { "name": "Workshop Room", "image": "room7.jpg" },
-            { "name": "Private Office", "image": "room8.jpg" },
-            { "name": "Lounge", "image": "room9.jpg" }
+            {
+                "name": "Conference Room",
+                "image": "room6.jpg"
+            },
+            {
+                "name": "Workshop Room",
+                "image": "room7.jpg"
+            },
+            {
+                "name": "Private Office",
+                "image": "room8.jpg"
+            },
+            {
+                "name": "Lounge",
+                "image": "room9.jpg"
+            }
         ]
     },
     {
@@ -49,13 +87,23 @@
         "name": "Creative Corner",
         "location": "Chicago",
         "image": "md (6).jpg",
-        "features": ["WiFi", "Whiteboard", "Coffee"],
+        "features": [
+            "WiFi",
+            "Whiteboard",
+            "Coffee"
+        ],
         "hours_price": 18,
         "number_of_rooms": 2,
         "rate": 4.3,
         "rooms": [
-            { "name": "Creative Room", "image": "room10.jpg" },
-            { "name": "Meeting Room", "image": "room11.jpg" }
+            {
+                "name": "Creative Room",
+                "image": "room10.jpg"
+            },
+            {
+                "name": "Meeting Room",
+                "image": "room11.jpg"
+            }
         ]
     },
     {
@@ -63,14 +111,27 @@
         "name": "Urban Space",
         "location": "Boston",
         "image": "md (7).jpg",
-        "features": ["WiFi", "Projector", "Lounge"],
+        "features": [
+            "WiFi",
+            "Projector",
+            "Lounge"
+        ],
         "hours_price": 22,
         "number_of_rooms": 3,
         "rate": 4.4,
         "rooms": [
-            { "name": "Presentation Room", "image": "room12.jpg" },
-            { "name": "Private Office", "image": "room13.jpg" },
-            { "name": "Lounge Area", "image": "room14.jpg" }
+            {
+                "name": "Presentation Room",
+                "image": "room12.jpg"
+            },
+            {
+                "name": "Private Office",
+                "image": "room13.jpg"
+            },
+            {
+                "name": "Lounge Area",
+                "image": "room14.jpg"
+            }
         ]
     },
     {
@@ -78,15 +139,31 @@
         "name": "Innovation Hub",
         "location": "Seattle",
         "image": "md (8).jpg",
-        "features": ["WiFi", "Printer", "Coffee"],
+        "features": [
+            "WiFi",
+            "Printer",
+            "Coffee"
+        ],
         "hours_price": 28,
         "number_of_rooms": 4,
         "rate": 4.6,
         "rooms": [
-            { "name": "Startup Room", "image": "room1.jpg" },
-            { "name": "Conference Room", "image": "room2.jpg" },
-            { "name": "Private Office", "image": "room3.jpg" },
-            { "name": "Brainstorm Room", "image": "room4.jpg" }
+            {
+                "name": "Startup Room",
+                "image": "room1.jpg"
+            },
+            {
+                "name": "Conference Room",
+                "image": "room2.jpg"
+            },
+            {
+                "name": "Private Office",
+                "image": "room3.jpg"
+            },
+            {
+                "name": "Brainstorm Room",
+                "image": "room4.jpg"
+            }
         ]
     },
     {
@@ -94,13 +171,23 @@
         "name": "WorkNest",
         "location": "Austin",
         "image": "md (9).jpg",
-        "features": ["WiFi", "Whiteboard", "Snacks"],
+        "features": [
+            "WiFi",
+            "Whiteboard",
+            "Snacks"
+        ],
         "hours_price": 19,
         "number_of_rooms": 2,
         "rate": 4.1,
         "rooms": [
-            { "name": "Focus Room", "image": "room5.jpg" },
-            { "name": "Meeting Room", "image": "room6.jpg" }
+            {
+                "name": "Focus Room",
+                "image": "room5.jpg"
+            },
+            {
+                "name": "Meeting Room",
+                "image": "room6.jpg"
+            }
         ]
     },
     {
@@ -108,14 +195,26 @@
         "name": "Focus Studio",
         "location": "Denver",
         "image": "md (10).jpg",
-        "features": ["WiFi", "Projector"],
+        "features": [
+            "WiFi",
+            "Projector"
+        ],
         "hours_price": 21,
         "number_of_rooms": 3,
         "rate": 4.3,
         "rooms": [
-            { "name": "Studio Room", "image": "room7.jpg" },
-            { "name": "Meeting Room", "image": "room8.jpg" },
-            { "name": "Private Office", "image": "room9.jpg" }
+            {
+                "name": "Studio Room",
+                "image": "room7.jpg"
+            },
+            {
+                "name": "Meeting Room",
+                "image": "room8.jpg"
+            },
+            {
+                "name": "Private Office",
+                "image": "room9.jpg"
+            }
         ]
     },
     {
@@ -123,14 +222,27 @@
         "name": "Collab Space",
         "location": "Miami",
         "image": "md (12).jpg",
-        "features": ["WiFi", "Lounge", "Coffee"],
+        "features": [
+            "WiFi",
+            "Lounge",
+            "Coffee"
+        ],
         "hours_price": 24,
         "number_of_rooms": 3,
         "rate": 4.5,
         "rooms": [
-            { "name": "Collaboration Room", "image": "room10.jpg" },
-            { "name": "Meeting Room", "image": "room11.jpg" },
-            { "name": "Lounge Area", "image": "room12.jpg" }
+            {
+                "name": "Collaboration Room",
+                "image": "room10.jpg"
+            },
+            {
+                "name": "Meeting Room",
+                "image": "room11.jpg"
+            },
+            {
+                "name": "Lounge Area",
+                "image": "room12.jpg"
+            }
         ]
     },
     {
@@ -138,13 +250,23 @@
         "name": "The Hive",
         "location": "San Diego",
         "image": "md (1).jpg",
-        "features": ["WiFi", "Whiteboard", "Snacks"],
+        "features": [
+            "WiFi",
+            "Whiteboard",
+            "Snacks"
+        ],
         "hours_price": 20,
         "number_of_rooms": 2,
         "rate": 4.2,
         "rooms": [
-            { "name": "Brainstorm Room", "image": "room13.jpg" },
-            { "name": "Private Office", "image": "room14.jpg" }
+            {
+                "name": "Brainstorm Room",
+                "image": "room13.jpg"
+            },
+            {
+                "name": "Private Office",
+                "image": "room14.jpg"
+            }
         ]
     },
     {
@@ -152,15 +274,31 @@
         "name": "NextGen Workspace",
         "location": "Portland",
         "image": "md (2).jpg",
-        "features": ["WiFi", "Printer", "Coffee"],
+        "features": [
+            "WiFi",
+            "Printer",
+            "Coffee"
+        ],
         "hours_price": 26,
         "number_of_rooms": 4,
         "rate": 4.6,
         "rooms": [
-            { "name": "Innovation Room", "image": "room1.jpg" },
-            { "name": "Conference Room", "image": "room2.jpg" },
-            { "name": "Private Office", "image": "room3.jpg" },
-            { "name": "Focus Room", "image": "room4.jpg" }
+            {
+                "name": "Innovation Room",
+                "image": "room1.jpg"
+            },
+            {
+                "name": "Conference Room",
+                "image": "room2.jpg"
+            },
+            {
+                "name": "Private Office",
+                "image": "room3.jpg"
+            },
+            {
+                "name": "Focus Room",
+                "image": "room4.jpg"
+            }
         ]
     },
     {
@@ -168,14 +306,27 @@
         "name": "Smart Work Hub",
         "location": "Dallas",
         "image": "md (3).jpg",
-        "features": ["WiFi", "Whiteboard", "Projector"],
+        "features": [
+            "WiFi",
+            "Whiteboard",
+            "Projector"
+        ],
         "hours_price": 23,
         "number_of_rooms": 3,
         "rate": 4.4,
         "rooms": [
-            { "name": "Smart Room", "image": "room5.jpg" },
-            { "name": "Meeting Room", "image": "room6.jpg" },
-            { "name": "Private Office", "image": "room7.jpg" }
+            {
+                "name": "Smart Room",
+                "image": "room5.jpg"
+            },
+            {
+                "name": "Meeting Room",
+                "image": "room6.jpg"
+            },
+            {
+                "name": "Private Office",
+                "image": "room7.jpg"
+            }
         ]
     },
     {
@@ -183,13 +334,23 @@
         "name": "City Desk",
         "location": "Philadelphia",
         "image": "md (6).jpg",
-        "features": ["WiFi", "Coffee", "Lounge"],
+        "features": [
+            "WiFi",
+            "Coffee",
+            "Lounge"
+        ],
         "hours_price": 19,
         "number_of_rooms": 2,
         "rate": 4.2,
         "rooms": [
-            { "name": "Open Workspace", "image": "room8.jpg" },
-            { "name": "Meeting Room", "image": "room9.jpg" }
+            {
+                "name": "Open Workspace",
+                "image": "room8.jpg"
+            },
+            {
+                "name": "Meeting Room",
+                "image": "room9.jpg"
+            }
         ]
     }
 ]

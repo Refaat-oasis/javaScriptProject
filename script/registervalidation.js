@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         input.style.borderColor = "red";
     }
 
-  
+
     function clearError(input) {
         let errorElem = input.nextElementSibling;
         if (errorElem && errorElem.classList.contains("error-message")) {
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
         input.style.borderColor = "#456882";
     }
 
- 
+
     function isValidEmail(email) {
         return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     }
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let valid = true;
 
-   
+
         if (username.value.trim() === "") {
             showError(username, "Username is required");
             valid = false;
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
             clearError(username);
         }
 
-  
+
         if (email.value.trim() === "") {
             showError(email, "Email is required");
             valid = false;
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
             clearError(email);
         }
 
-      
+
         if (password.value === "") {
             showError(password, "Password is required");
             valid = false;
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
             clearError(password);
         }
 
-      
+
         if (repass.value === "") {
             showError(repass, "Please confirm your password");
             valid = false;
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
             clearError(repass);
         }
 
-       
+
         if (valid) {
             alert("Form submitted successfully!");
             form.reset();
