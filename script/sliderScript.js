@@ -33,6 +33,11 @@ function createWorkspaceCard(workspace) {
     const featuresTags = workspace.features
         .map(feature => `<span class="feature-tag">${feature}</span>`)
         .join('');
+//
+        card.onclick = () => {
+                window.location.href = `details.html?id=${workspace.id}`;
+            };
+            //
     
     card.innerHTML = `
         <img src="./../assets/Workspace/${workspace.image}" alt="${workspace.name}" class="workspace-card-image">

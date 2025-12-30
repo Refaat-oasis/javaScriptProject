@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Workspace Details</title>
     
     <script src="./../script/navBarScript.js"></script>
     <link rel="stylesheet" href="./../style/navbarstyle.css">
         <link rel="stylesheet" href="./../style/main.css">
+         <link rel="stylesheet" href="../style/details.css">
         
 </head>
 <body>
@@ -23,8 +24,29 @@
             </ul>
         </div>
 
-
     </nav>
+     <div class="details-container">
+        <img id="workspaceImage" class="workspace-image" />
+        <div class="details-content">
+            <h1 id="workspaceName"></h1>
+            <p class="location" id="workspaceLocation"></p>
+
+            <div class="info">
+                <span id="workspacePrice"></span>
+                <span id="workspaceRooms"></span>
+                <span id="workspaceRate"></span>
+            </div>
+
+            <h3>Features</h3>
+            <ul id="workspaceFeatures"></ul>
+
+            <h3>Rooms</h3>
+            <div id="workspaceRoomsContainer" class="rooms-container"></div>
+
+            <button class="book-btn">Book Now</button>
+        </div>
+    </div>
+
 
 
     <main>
@@ -43,7 +65,7 @@
     </footer>
 
 
-
+ <script src="../script/details.js"></script>
     
 </body>
 </html>
