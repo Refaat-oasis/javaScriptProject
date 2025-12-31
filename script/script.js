@@ -29,7 +29,7 @@ form.onsubmit = async (e) => {
 
     }
 
-    const response = await fetch('users.json');
+    const response = await fetch('../json/users.json');
     const users = await response.json();
     console.log(users)
 
@@ -65,5 +65,6 @@ form.onsubmit = async (e) => {
 
 
 }
+
 
 
