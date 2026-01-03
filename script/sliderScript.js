@@ -1,6 +1,3 @@
-
-
-
 async function loadWorkspaces() {
     try {
 
