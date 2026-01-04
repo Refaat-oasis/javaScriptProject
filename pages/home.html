@@ -33,8 +33,10 @@
                 <h1>Find Your Perfect Workspace</h1>
                 <p>Discover flexible co-working spaces tailored to your needs</p>
                 <div class="search-section">
-                    <input type="text" id="searchInput" class="search-input"
-                        placeholder="Search workspaces by location or name...">
+
+                    <input type="text" id="searchInput" placeholder="Search by name or location" class="search-input"
+                        oninput="performSearch()">
+
                     <button class="search-btn">Search</button>
                 </div>
             </div>
@@ -90,6 +92,16 @@
     </footer>
 
     <script src="./../script/sliderScript.js"></script>
+
+    <script>
+        const username = localStorage.getItem("username");
+
+        if (username) {
+            document.getElementById("brandname").innerHTML +=
+                ` Welcome, ${username}`;
+        }
+
+    </script>
 
 </body>
 
