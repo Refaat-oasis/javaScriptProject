@@ -86,10 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
             clearError(repass);
         }
 
-
         if (valid) {
-            alert("Form submitted successfully!");
             form.reset();
+            window.location.href = "home.html";
         }
     });
 });
